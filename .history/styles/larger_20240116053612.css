@@ -1,0 +1,9 @@
+@media screen (min-width: 600px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
