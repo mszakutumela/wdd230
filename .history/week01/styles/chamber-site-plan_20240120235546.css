@@ -1,3 +1,13 @@
+/* :root {
+    --color-1: #7C616C ;
+    --color-2: #D1B1CB;
+    --color-3: #DDCAD9;
+    --color-4: #E5E9EC;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -27,11 +37,11 @@ hr {
 }
 
 #body-font {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--heading-font);
     color:#000;
     text-align: center;
     letter-spacing: 1px;
@@ -42,11 +52,13 @@ h2, h3, h4 {
 header {
     text-align: center;
     color: #E5E9EC;
-    background-color: #7C616C;
+    --color-1: #7C616C ;
+    background-color: ;
     padding: 1em;
 }
 
 footer {
+    --color-1:  ;
     background-color: #7C616C;
     color: #E5E9EC;
 }

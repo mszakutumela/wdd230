@@ -1,3 +1,13 @@
+/* :root {
+    --color-1: #7C616C ;
+    --color-2: #D1B1CB;
+    --color-3: #DDCAD9;
+    --color-4: #E5E9EC;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+    
+} */
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -21,38 +31,38 @@ hr {
 }
 
 #header-font {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;;
     letter-spacing: 1px;
     margin-bottom: 0;
 }
 
 #body-font {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--heading-font);
     color:#000;
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    background-color: #D1B1CB;
+    background-color: var(--color-2);
 }
 
 header {
     text-align: center;
-    color: #E5E9EC;
-    background-color: #7C616C;
+    color: var(--color-4);
+    background-color: var(--color-1);
     padding: 1em;
 }
 
 footer {
-    background-color: #7C616C;
-    color: #E5E9EC;
+    background-color: var(--color-1);
+    color: var(--color-4);
 }
 
 a {
-    font-size: 10px;
+    font-size: ;
     text-align: center;
 }
 
@@ -60,10 +70,11 @@ ul {
     text-align: center;
     margin-top: auto;
     list-style-position: inside;
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--paragraph-font);
 }
 
 p {
+    font-size: var(--paragraph-font);
     margin-top: 0;
 }
 
@@ -84,19 +95,19 @@ p {
 }
 
 #color1 {
-    background-color: #7C616C;
+    background-color: var(--color-1);
 }
 
 #color2 {
-    background-color: #D1B1CB;
+    background-color: var(--color-2);
 }
 
 #color3 {
-    background-color: #DDCAD9;
+    background-color: var(--color-3);
 }
 
 #color4 {
-    background-color: #E5E9EC;
+    background-color: var(--color-4);
 }
 
 .color-use {
