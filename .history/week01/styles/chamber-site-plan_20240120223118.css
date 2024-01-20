@@ -1,0 +1,25 @@
+:root {
+    --color-1: #7C616C ;
+    --color-2: #D1B1CB;
+    --color-3: #DDCAD9;
+    --color-4: #E5E9EC;
+
+    --heading-font: Roboto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    max-width: 600px;
+    font-size: 14px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+

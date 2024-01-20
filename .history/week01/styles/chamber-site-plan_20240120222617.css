@@ -1,0 +1,18 @@
+:root
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    max-width: 600px;
+    font-size: 14px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+
