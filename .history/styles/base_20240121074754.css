@@ -1,0 +1,112 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(242, 250, 197);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 1.15em;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#titleHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+    background-color: #A44200;
+}
+
+#profilePic {
+    width: auto;
+    height: 150px;
+}
+
+h1 {
+    font-size: 2em;
+    color: yellow;
+}
+
+main {
+    background-color: rgb(242, 250, 197);
+    color: #A44200;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.wddTitle {
+    font-size: 1em;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid
+}
+
+section {
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 3px #D2D4C8;
+    margin: 1rem;
+    line-height: 2rem;
+}
+
+section h2 {
+    background-color: #A44200;
+    color: white;
+    text-align: center;
+    margin: 0;
+    border-radius: 8px 8px 0 0 ;
+}
+
+footer {
+    background-color: #A44200;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 5px;
+}
+
+nav {
+    background-color: #D58936;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    background-color: #D58936;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #F2F3AE;
+    color: black;
+}
+
+nav .active {
+    color: yellow;
+}
+
+

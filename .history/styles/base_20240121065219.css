@@ -1,0 +1,100 @@
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+    font-size: 22px;
+    line-height: 1.15em;
+    margin: 0;
+    padding: 0;
+}
+
+
+#titleHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+    background-color: #5F7470;
+    color: rgb(255, 255, 255);
+}
+
+header h1 {
+    text-align: center;
+    margin: auto 0;
+}
+
+#profilePic {
+    width: auto;
+    height: 100px;
+    /* grid-column: 1/2;
+    padding: 10px;
+    margin-left: 3rem; */
+}
+
+main {
+    color: #889696;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 3px #D2D4C8;
+    margin: 1rem;
+    line-height: 2rem;
+}
+
+section h2 {
+    background-color: #5F7470;
+    color: white;
+    text-align: center;
+    margin: 0;
+    border-radius: 8px 8px 0 0 ;
+}
+
+footer {
+    background-color: #5F7470;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    padding: 5px;
+}
+
+nav {
+    background: #D2D4C8;
+    overflow: hidden;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    color: white;
+}
+
+
