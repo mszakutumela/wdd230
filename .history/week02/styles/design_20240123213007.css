@@ -1,12 +1,5 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: Roboto, helvetica, sans-serif;
-    margin: 1rem;
 }
 
 header,
@@ -21,7 +14,7 @@ footer {
     background-color: #702963;
     color: white;
     text-align: center;
-    font-weight: 700;
+    font-weight: ;
 }
 
 h1 {
