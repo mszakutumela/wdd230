@@ -29,7 +29,7 @@ h6 {
     padding: 5px;
     gap: 20px;
     background-color: #A44200;
-    
+    buttion
 }
 
 #profilePic {
@@ -40,7 +40,6 @@ h6 {
 h1 {
     font-size: 2em;
     color: yellow;
-    margin: auto 0; 
 }
 
 nav {
@@ -64,7 +63,7 @@ nav a:hover {
 }
 
 nav .active {
-    color: white;
+    color: yellow;
 }
 
 main {

@@ -40,7 +40,6 @@ h6 {
 h1 {
     font-size: 2em;
     color: yellow;
-    margin: auto 0; 
 }
 
 nav {
@@ -64,7 +63,7 @@ nav a:hover {
 }
 
 nav .active {
-    color: white;
+    color: yellow;
 }
 
 main {
