@@ -81,7 +81,7 @@ nav a.open {
 }
 
 nav #menu-button.close::before {
-    content: "X";
+    
 }
 
 main {

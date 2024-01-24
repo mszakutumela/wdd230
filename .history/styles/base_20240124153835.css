@@ -80,9 +80,7 @@ nav a.open {
     display: flex;
 }
 
-nav #menu-button.close::before {
-    content: "X";
-}
+nav #menu-button.close
 
 main {
     background-color: rgb(242, 250, 197);

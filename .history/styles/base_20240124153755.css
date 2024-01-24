@@ -77,11 +77,7 @@ nav a.menu-item {
 }
 
 nav a.open {
-    display: flex;
-}
-
-nav #menu-button.close::before {
-    content: "X";
+    display: ;
 }
 
 main {

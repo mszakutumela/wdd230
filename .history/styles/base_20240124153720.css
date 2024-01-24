@@ -73,15 +73,7 @@ nav #active {
 }
 
 nav a.menu-item {
-    display: none;
-}
-
-nav a.open {
-    display: flex;
-}
-
-nav #menu-button.close::before {
-    content: "X";
+    
 }
 
 main {

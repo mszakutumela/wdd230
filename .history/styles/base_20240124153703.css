@@ -72,17 +72,7 @@ nav #active {
     color: white;
 }
 
-nav a.menu-item {
-    display: none;
-}
 
-nav a.open {
-    display: flex;
-}
-
-nav #menu-button.close::before {
-    content: "X";
-}
 
 main {
     background-color: rgb(242, 250, 197);

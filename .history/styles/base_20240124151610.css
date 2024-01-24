@@ -50,11 +50,6 @@ nav {
     justify-content: space-around;
 }
 
-nav #menu-button::before {
-    content: "≡";
-    font-size: 2rem;
-}
-
 nav a {
     color: #3C1518;
     background-color: #D58936;
@@ -63,25 +58,13 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover, nav:first-child a {
+nav a:hover {
     background-color: #F2F3AE;
     color: #3C1518;
 }
 
 nav #active {
     color: white;
-}
-
-nav a.menu-item {
-    display: none;
-}
-
-nav a.open {
-    display: flex;
-}
-
-nav #menu-button.close::before {
-    content: "X";
 }
 
 main {
