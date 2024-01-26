@@ -19,20 +19,4 @@ hamburgerElement.addEventListener("click", () => {
     hamburgerElement.classList.toggle("open");
 });
 
-// Dark Mode Button - Code pen code method (https://codepen.io/blazzard-jason/pen/ZERawEQ)
-const darkMode = document.querySelector("#darkButton");
-const mainElement = document.querySelector("main");
-
-darkMode.addEventListener("click", () => {
-	if (darkMode.textContent.includes("🕶️")) {
-		mainElement.style.background = "#000";
-		mainElement.style.color = "#fff";
-		darkMode.textContent = "🔆";
-	} else {
-		mainElement.style.background = "#eee";
-		mainElement.style.color = "#000";
-		darkMode.textContent = "🕶️";
-	}
-});
-
-
+Dark 

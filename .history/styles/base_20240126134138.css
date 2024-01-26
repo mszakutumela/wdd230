@@ -51,25 +51,24 @@ nav {
 
 #darkButton {
     position: absolute;
-    top: 10px;
+    top: .2rem;
     right: 15vw;
     width: 24px;
-    font-size: 3rem;
     cursor: pointer;
-    font-size: 2rem;
-    /* background: none;
-    border: none; */
+    background: none;
+    border: none;
 }
 
 /* #darkButton::before {
     font-size: 2rem;
     content: "🕶️";
+    /* content: "☰"; */
 } */
 
-/* #darkButton.open::before {
+#darkButton.open::before {
     font-size: 1.5rem;
     content: "🔆";
-} */
+}
 
 /* main.dark {
 
