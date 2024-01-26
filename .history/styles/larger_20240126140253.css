@@ -10,7 +10,7 @@
     
     .menuLinks {
         flex-direction: row;
-        padding: 0;
+        padding: 10px ;
     }
 
     .menuLinks li {

@@ -5,12 +5,12 @@
 
     ul.menuLinks, ul.menuLinks.open {
         display: flex;
-        justify-content: flex-end;
+        justify-content;
     }
     
     .menuLinks {
         flex-direction: row;
-        padding: 0;
+        padding: auto;
     }
 
     .menuLinks li {
