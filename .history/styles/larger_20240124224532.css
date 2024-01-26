@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row;
+    }
+
+    .wddTitle {
+        font-size: 1.75em;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card-grid section:nth-child(1) {
+        grid-column: span ;
+    }
+
+    footer .footer-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

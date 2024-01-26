@@ -1,0 +1,24 @@
+@media screen and (min-width: 740px) {
+    nav {
+        flex-direction: row;
+    }
+
+    .wddTitle {
+        font-size: 1.75em;
+    }
+
+    .herolabel {
+        top: 250px;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

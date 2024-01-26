@@ -1,0 +1,32 @@
+@media screen and (min-width: 740px) {
+    nav {
+        flex-direction: row;
+    }
+
+    .wddTitle {
+        font-size: 1.75em;
+    }
+
+    .herolabel {
+        position: absolute;
+        top: 250px;
+        left: 30px;
+        background: radial-gradient(#fff, #4D5B97);
+        border: 1px solid rgba(0, 0, 0, .75);
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+        /* Buenas */
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: 1fr 400px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
