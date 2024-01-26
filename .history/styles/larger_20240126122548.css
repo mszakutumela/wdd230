@@ -5,19 +5,17 @@
 
     ul.menuLinks, ul.menuLinks.open {
         display: flex;
-        justify-content: flex;
+        
     }
     
-    .menuLinks {
+    /* .menuLinks {
         flex-direction: row;
-        padding: auto;
     }
 
     .menuLinks li {
         display: block;
         flex: 1 1 100%;
-        text-align: center;
-    }
+    } */
 
     .wddTitle {
         font-size: 1.75em;

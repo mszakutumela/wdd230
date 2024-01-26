@@ -40,7 +40,7 @@ h6 {
 
 h1 {
     font-size: 2.5rem;
-    color: rgb(255, 255, 0);
+    color: rgb(229, 245, 6);
 }
 
 nav {
@@ -50,30 +50,30 @@ nav {
 }
 
 #menuButton {
-    position: absolute;
-    top: 0;
-    right: 2vw;
+    /* position: absolute; */
+    /* top: 1rem;
+    left: 1rem; */
     background: none;
     border: none;
-    color: rgb(255, 255, 0);
+    color: yellow;
     cursor: pointer;
     font-size: 2rem;
-    width: 44px;
-    text-align: right;
+    width: 100%;
+    text-align: left;
     padding: .25rem 2vw;
-    /* height: auto; */
+    /* width: 40px;
+    height: auto; */
 }
 
-#menuButton::before {
+/* #menuButton::before {
     font-size: 2rem;
-    content: "\2630";
-    /* content: "☰"; */
-}
+    content: "☰";
+} */
 
-#menuButton.open::before {
+/* #menuButton.open::before {
     font-size: 1.5rem;
     content: "❎";
-}
+} */
 
 .menuLinks {
     background-color: #D58936;
@@ -234,7 +234,7 @@ footer {
 }
 
 footer p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 5px;
     text-align: center;
 }

@@ -51,17 +51,15 @@ nav {
 
 #menuButton {
     position: absolute;
-    top: 0;
-    right: 2vw;
     background: none;
     border: none;
     color: rgb(255, 255, 0);
     cursor: pointer;
     font-size: 2rem;
     width: 44px;
-    text-align: right;
+    text-align: left;
     padding: .25rem 2vw;
-    /* height: auto; */
+    height: auto;
 }
 
 #menuButton::before {

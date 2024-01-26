@@ -16,7 +16,7 @@ hamburgerElement.addEventListener("click", () => {
 // (anonymous) @ getDates.js:14)
     navElement.forEach(x => x.classList.toggle("open"));
     // hamburgerElement.forEach(x => x.classList.toggle("open"));
-    hamburgerElement.classList.toggle("open");
+    // hamburgerElement.classList.toggle("open");
 });
 
 

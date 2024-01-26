@@ -16,7 +16,6 @@
     .menuLinks li {
         display: block;
         flex: 1 1 100%;
-        text-align: center;
     }
 
     .wddTitle {

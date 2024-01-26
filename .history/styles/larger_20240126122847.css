@@ -10,14 +10,13 @@
     
     .menuLinks {
         flex-direction: row;
-        padding: auto;
+        padding: 25re;
     }
 
-    .menuLinks li {
+    /* .menuLinks li {
         display: block;
         flex: 1 1 100%;
-        text-align: center;
-    }
+    } */
 
     .wddTitle {
         font-size: 1.75em;

@@ -15,8 +15,8 @@ hamburgerElement.addEventListener("click", () => {
 //     at HTMLButtonElement.<anonymous> (getDates.js:14:26)
 // (anonymous) @ getDates.js:14)
     navElement.forEach(x => x.classList.toggle("open"));
-    // hamburgerElement.forEach(x => x.classList.toggle("open"));
-    hamburgerElement.classList.toggle("open");
+    navElement.forEach(x => x.classList.toggle("open"));navElement.forEach(x => x.classList.toggle("open"));
+    // hamburgerElement.classList.toggle("open");
 });
 
 

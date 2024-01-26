@@ -1,22 +1,16 @@
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
     #menuButton {
         display: none;
     }
 
-    ul.menuLinks, ul.menuLinks.open {
-        display: flex;
-        justify-content: flex;
-    }
-    
     .menuLinks {
+        display: block;
         flex-direction: row;
-        padding: auto;
     }
 
-    .menuLinks li {
+    ul.menuLinks li {
         display: block;
-        flex: 1 1 100%;
-        text-align: center;
+        flex-direction: row;
     }
 
     .wddTitle {
@@ -37,4 +31,4 @@
         flex-direction: row;
         justify-content: space-between;
     }
-}
+} */

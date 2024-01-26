@@ -50,9 +50,7 @@ nav {
 }
 
 #menuButton {
-    position: absolute;
-    top: 0;
-    right: 2vw;
+    /* position: absolute; */
     background: none;
     border: none;
     color: rgb(255, 255, 0);
