@@ -1,5 +1,15 @@
-@media screen and (min-width: 740px) {
-    nav {
+/* @media screen and (min-width: 768px) {
+    #menuButton {
+        display: none;
+    }
+
+    ul.menuLinks {
+        display: block;
+        flex-direction: row;
+    }
+
+    ul.menuLinks li {
+        display: block;
         flex-direction: row;
     }
 
@@ -9,12 +19,16 @@
 
     .card-grid {
         display: grid;
-        grid-template-columns: 1fr 400px;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    footer {
+    .card-grid section:nth-child(1) {
+        grid-column: span 2;
+    }
+
+    footer .footer-info {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-}
+} */
