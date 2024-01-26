@@ -38,7 +38,7 @@ h6 {
     height: 150px;
 }
 
-h1 {
+h2 {
     font-size: 2.5rem;
     color: rgb(255, 255, 0);
     row-gap: 5px;
@@ -203,13 +203,13 @@ main {
 }
 
 
-.wddTitle {
+/* .wddTitle {
     font-size: 2rem;
     row-gap: 5px;
     padding: 15px;
     text-align: center;
     border-bottom: 1px solid #3C1518;
-}
+} */
 
 .card-grid {
     display: grid;
