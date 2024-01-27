@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    color: rgb(2, 30, 155);
+    font-size: 2.5rem;
+}
+
+main {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    margin:  0 auto;
+    width: 400px;
+}
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 10s;
+}
+
+@keyframes identifier {
+    
+}
+

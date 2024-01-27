@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Loading</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Lazy Loading Activity</h1>
+    </header>
+
+    <main>
+        <picture>
+            <img src="images/pic1.webp" alt="Amulek's 13 month photo-shoot pic1" loading="lazy" width="400" height="">
+        </picture>
+        <picture>
+            <img src="images/pic2.webp" alt="Amulek's 13 month photo-shoot pic2">
+        </picture>
+        <picture>
+            <img src="images/pic3.webp" alt="Amulek's 13 month photo-shoot pic3">
+        </picture>
+        <picture>
+            <img src="images/pic4.webp" alt="Amulek's 13 month photo-shoot pic4">
+        </picture>
+        <picture>
+            <img src="images/pic5.webp" alt="Amulek's 13 month photo-shoot pic5">
+        </picture>
+        <picture>
+            <img src="images/pic6.webp" alt="Amulek's 13 month photo-shoot pic6">
+        </picture>        
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p>
+                &copy; <span id="year"></span> | Ayanda Ndlovu | Centurion - South Africa
+            </p>
+        </div>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/Lazyload.js"></script>
+</body>
+</html>
