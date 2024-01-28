@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     /* background-color: rgb(242, 250, 197); */
-    background-color: white;
+    background-color: w;
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
     font-weight: 200;
@@ -163,7 +163,7 @@ nav a.menu-item {
 }
 
 main {
-    background-color: white;
+    background-color: none;
     color: #3C1518;
     padding: 20px;
     display: flex;
