@@ -30,7 +30,7 @@
 
     <nav>
         <div id="titleHeader">
-            <img id="logo" src="chamber/images/Logo.png" alt="Logo of Tshwane Chamber of Commerce Website">
+            <img id="logo" src="chamber/images/Logo.png" alt="logo of Tshwane Chamber of Commerce Website">
             <h1>Tshwane Chamber of Commerce</h1>
         
         <ul class="menuLinks">
@@ -44,9 +44,9 @@
     <main>
         <div class="hero">
             <picture>
-                <!-- <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)">
                 <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
-                <img src="images/hero-large.webp" alt="Durban Temple South Africa" width="500" height="250"> -->
+                <img src="images/hero-large.webp" alt="Durban Temple South Africa" width="500" height="250">
             </picture>
             <span>Tshwane Chamber of Commerce</span>
         </div>
@@ -60,68 +60,43 @@
                 <div class="card-content">
                     <ul class="left-card">
                         <li>Event: 01 <a href="#"></a></li>
-                        <li>Event: 02 <a href=#></a></li>
-                        <li>Event: 03 <a href=#></a></li>
+                        <li>Event: 02 <a href="week02/design.html">Web Design Principles</a> | <a
+                                href="https://codepen.io/mszakutumela/pen/KKEvbYb">Responsive "Hamburger" Menu</a> | <a
+                                href="week02/bom.html">JavaScript: DOM Manipulation</a></li>
+                        <li>Event: 03 <a href="week03/images/landscape.webp">WebP</a> | <a
+                                href="week03/lazyload.html">Lazy Loading</a> | <a
+                                href="week03/responsive-images.html">Responsive Images: srcset</a> | <a
+                                href="week03/bom.html">Web Storage API - localStorage</a> </li>
                     </ul>
                 </div>
 
             </section>
             <section class="card-two">
                 <div class="card-header">
-                    <h3>Recent News</h3>
+                    <h3>Information</h3>
                 </div>
                 <div class="card-content">
-                    <p>News 01</p>
-                    <p>News 02: </p>
-                    <p>News 03: </p>
-                    <p>News 04: </p>
+                    <p>Current Temperature: <span id="current-temp"></span></p>
+                    <p>Experiencing: <span id="weatherDegC" style="text-transform: capitalize;"></span></p>
+                    <img id="weather-icon" src="#" alt="Text">
+                    <p>
+                        <span class="label">Number of Visits: </span>
+                        <span class="visits"></span>
+                    </p>
                 </div>
             </section>
         </div>
-        <div class="#">            
-            <span>Our Local Business</span>
-            <div class="card-grid2">
-                <section class="card-three">
-                    <div class="card-header">
-                        <h3>Business 01</h3>
-                    </div>
-                    <div class="card-content2">
-                        <img src="#" alt="">
-                        <div class="left-card2">
-                            
-                        </div>
-                    </div>
-                </section>
-                <section class="card-four">
-                    <div class="card-header">
-                        <h3>Business 02</h3>
-                    </div>
-                    <div class="card-content3">
-                        <img src="#" alt="">
-                        <div class="middle-card">
-                            
-                        </div>
-                </section>
-            </section>
-            <section class="card-five">
-                <div class="card-header">
-                    <h3>Business 03</h3>
-                </div>
-                <div class="card-content4">
-                    <img src="#" alt="">
-                    <div class="right-card">
-                        
-                    </div>
-            </section>
-            </div>
-        </div>
-        
+        <iframe id="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d219479.73930591735!2d29.836667976009977!3d-27.783309579900063!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1eedc2a45f25a0f3%3A0x3d3036d68118a2a0!2s6%20Hendrik%20Potgieter%20Ave%2C%20Barry%20Hertzog%20Park%2C%20Newcastle%2C%202945!5e0!3m2!1sen!2sza!4v1706384754070!5m2!1sen!2sza"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </main>
 
     <footer>
         <div class="footer-info">
             <p>
-                &copy; <span id="year"></span> | Ayanda Ndlovu | Tshwane - South Africa
+                &copy; <span id="year"></span> | Ayanda Ndlovu | Centurion - South Africa
             </p>
         </div>
         <p>Last modified: <span id="lastModified"></span></p>
