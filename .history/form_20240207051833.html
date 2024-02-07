@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayanda Ndlovu - WDD 230 - Web Fronted Development</title>
+    <meta name="description" content="WDD 230 - Web Fronted Development. Ayanda Ndlovu. Course assignment portal.">
+    <meta name="author" content="Ayanda Ndlovu">
+    <meta property="og:title" content="Ayanda Ndlovu - WDD 230 - Web Fronted Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://kznpr.co.za/wp-content/gallery/newcastle/newcastle-allen-street-13.jpg">
+    <meta property="og:url" content="https://mszakutumela.github.io/wdd230/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&family=Quicksand:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="favicon(1).ico">
+
+</head>
+
+<body>
+    <header>
+        <div id="titleHeader">
+            <img id="profilePic" src="images/profilePic4Web.webp" alt="Profile Pic of Ayanda Ndlovu">
+            <h1>Ayanda Ndlovu</h1>
+        </div>
+        <!-- <button id="darkButton"></button> -->
+        <div id="darkButton">
+            🕶️
+        </div>
+    </header>
+
+    <nav>
+        <!-- <button id="menuButton">&#9776;</button> -->
+        <button id="menuButton"></button>
+        <ul class="menuLinks">
+            <li><a href="index.html" title="Home">Home</a></li>
+            <li><a href="chamber/index.html" title="Chamber">Chamber</a></li>
+            <li><a href="week01/chamber-site-plan.html" title="Chamber-Site-Plan">Chamber Site-Plan</a></li>
+            <li class="current-menu-item"><a class="active" href="form.html" title="Form">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="get" action="record.html">
+            <fieldset>
+                <legend>W04: Form (Team Activity)</legend>
+                <label class="top">Username* <input type="text" id="userName" name="userName" required></label>
+                <label class="top">Password* <input type="password" id="passWord1" name="passWord1" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,8}$" title="Password must be at least 8 characters long, inclusive with at least one number, one special character, one upper case letter and one lower case letter"></label>
+                <label class="top">Repeat Password* <input type="password" id="passWord2" name="passWord2" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,8}$" title="Password must be at least 8 characters long, inclusive with at least one number, one special character, one upper case letter and one lower case letter"></label>
+                <label class="top">BUY E-mail* <input type="byuEmail" id="byuEmail" name="byuEmail" placeholder="someone@byui.edu" required pattern="^[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address."></label>
+                <label for="pageRating">Page Rating</label>
+                <input type="range" id="pageRating" name="pageRating" min="1" max="10" value="1" step="1" list="rangeValues">
+                <div class="range">
+                    <div class="labels">
+
+                    <input type="range" id="pageRating" name="pageRating" min="1" max="10" value="1" step="1" list="rangeValues">    
+
+                </div>
+                <datalist id="rangeValues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+
+        </form>
+       
+
+            
+    </main>
+    
+    <footer>
+        <div class="footer-info">
+            <p>
+                &copy; <span id="year"></span> | Ayanda Ndlovu | Centurion - South Africa
+            </p>
+        </div>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/form-validation.js"></script>
+    
+
+
+</body>
+
+</html>
