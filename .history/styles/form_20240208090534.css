@@ -1,25 +1,18 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 :root {
-    --formBorder: #D58936;
-    --formText: black;
-    --formButton: #9c2c13;
-    --formBtnText: white;
-    /* --border: hsla(0, 0%, 20%, .8);
-    --borderlight: hsla(0, 0%, 33%, .3);
-    --shadow: hsl(0, 0%, 50%);
-    --zebra: hsl(0, 0%, 93%, 1); */
+	--back: hsla(150, 50%, 30%, 1);
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0,0%,10%,1);
+    --forelight: hsla(0,0%,100%,1);
+	--border: hsla(0,0%,20%,.8);
+	--borderlight: hsla(0,0%,33%,.3);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
 }
 
 /*----------- MAIN --------------*/
@@ -30,44 +23,36 @@ main {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid var(--formBorder);
+    border: 1px solid #D58936;
     border-radius: 10px;
     padding: .5rem 2;
 }
 
 form legend {
-    color: var(--formText);
+    color: black;
     font-weight: 400;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 
-form label.top,
-form label.top select {
+form label.top, form label.top select {
     /* -webkit-appearance: none; */
     display: block;
     font-size: 1rem;
-    border: solid 1px #c3c3c4;
+    border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: var(--formText);
+    color: black;
     font-weight: 400;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(164, 180, 231, 0.1);
-}
-
-form label.pageRating,
-div.rangeValue {
-    color: var(--formText);
-    font-weight: 400;
-    font-size: 1.2rem;
+    background-color: rgba(0,0,0,0.1);
 }
 
 form input.submitButton {
     border: none;
-    background-color: var(--formButton);
-    color: var(--formBtnText);
+    background-color: #9c2c13;
+    color: white;
     font-weight: 400;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -81,7 +66,7 @@ form label.top input:required {
 }
 
 form label.top input:required:valid {
-    border-left: green solid 6px;
+border-left: green solid 6px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
@@ -89,4 +74,4 @@ form label.top input:required:valid {
     content: "";
     display: table;
     clear: both;
-}
+  }

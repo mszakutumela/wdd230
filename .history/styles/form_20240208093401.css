@@ -13,13 +13,13 @@ html {
 
 :root {
     --formBorder: #D58936;
-    --formText: black;
-    --formButton: #9c2c13;
-    --formBtnText: white;
-    /* --border: hsla(0, 0%, 20%, .8);
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0, 0%, 10%, 1);
+    --forelight: hsla(0, 0%, 100%, 1);
+    --border: hsla(0, 0%, 20%, .8);
     --borderlight: hsla(0, 0%, 33%, .3);
     --shadow: hsl(0, 0%, 50%);
-    --zebra: hsl(0, 0%, 93%, 1); */
+    --zebra: hsl(0, 0%, 93%, 1);
 }
 
 /*----------- MAIN --------------*/
@@ -30,13 +30,13 @@ main {
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid var(--formBorder);
+    border: 1px solid #D58936;
     border-radius: 10px;
     padding: .5rem 2;
 }
 
 form legend {
-    color: var(--formText);
+    color: black;
     font-weight: 400;
     margin: 0 1rem;
     padding: 0 .5rem;
@@ -50,7 +50,7 @@ form label.top select {
     border: solid 1px #c3c3c4;
     border-radius: 4px;
     padding: .75rem;
-    color: var(--formText);
+    color: black;
     font-weight: 400;
     width: 100%;
     max-width: 20rem;
@@ -59,15 +59,15 @@ form label.top select {
 
 form label.pageRating,
 div.rangeValue {
-    color: var(--formText);
+    color: black;
     font-weight: 400;
     font-size: 1.2rem;
 }
 
 form input.submitButton {
     border: none;
-    background-color: var(--formButton);
-    color: var(--formBtnText);
+    background-color: #9c2c13;
+    color: white;
     font-weight: 400;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

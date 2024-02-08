@@ -14,12 +14,12 @@ html {
 :root {
     --formBorder: #D58936;
     --formText: black;
-    --formButton: #9c2c13;
-    --formBtnText: white;
-    /* --border: hsla(0, 0%, 20%, .8);
+    --foredark: hsla(0, 0%, 10%, 1);
+    --forelight: hsla(0, 0%, 100%, 1);
+    --border: hsla(0, 0%, 20%, .8);
     --borderlight: hsla(0, 0%, 33%, .3);
     --shadow: hsl(0, 0%, 50%);
-    --zebra: hsl(0, 0%, 93%, 1); */
+    --zebra: hsl(0, 0%, 93%, 1);
 }
 
 /*----------- MAIN --------------*/
@@ -66,8 +66,8 @@ div.rangeValue {
 
 form input.submitButton {
     border: none;
-    background-color: var(--formButton);
-    color: var(--formBtnText);
+    background-color: #9c2c13;
+    color: white;
     font-weight: 400;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
