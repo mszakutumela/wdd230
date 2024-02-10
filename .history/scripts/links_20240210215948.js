@@ -25,7 +25,7 @@ async function getLinks() {
         }        
     }
     catch (error) {
-        console.log(error);
+        console.log
     }
     
 }

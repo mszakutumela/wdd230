@@ -9,7 +9,7 @@ async function getProphetData() {
     // console.table(data.prophets);
     displayProphets(data.prophets);
 }
-getProphetData();
+getProphetData(url);
 
 function displayProphets(prophets) {
     prophets.forEach((prophet) => {
