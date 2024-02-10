@@ -272,10 +272,10 @@ section {
 }
 
 #map {
-    /* width: 100%;
-    height: auto; */
-    margin: 1rem auto;
-    
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+    padding: ;
     
 }
 
