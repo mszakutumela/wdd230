@@ -1,0 +1,16 @@
+{
+    "weeks" : [
+        {
+            "week" : "Week 1",
+            "links" : [
+                {
+                    "url" : "week01/holygrail.html",
+                    "title" : "Holy Grail Layout"
+                },
+                {
+                    
+                }
+            ]
+        }
+    ]
+}

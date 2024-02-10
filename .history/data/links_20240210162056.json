@@ -1,0 +1,93 @@
+{
+    "weeks" : [
+        {
+            "week" : "Week 1",
+            "links" : [
+                {
+                    "url" : "week01/holygrail.html",
+                    "title" : "Holy Grail Layout"
+                },
+                {
+                    "url" : "https://codepen.io/mszakutumela/pen/poYNGdL",
+                    "title" : "Applied JavaScript"
+                },
+                {
+                    "url" : "week01/media-query.html",
+                    "title" : "CSS Media Queries"
+                }
+            ]
+        },
+
+        {
+            "week" : "Week 2",
+            "links" : [
+                {
+                    "url" : "week02/design.html",
+                    "title" : "Web Design Principles"
+                },
+                {
+                    "url" : "https://codepen.io/mszakutumela/pen/KKEvbYb",
+                    "title" : "Responsive 'Hamburger' Menu"
+                },
+                {
+                    "url" : "week01/media-query.html",
+                    "title" : "CSS Media Queries"
+                }
+            ]
+        },
+
+        {
+            "week" : "Week 3",
+            "links" : [https://mszakutumela.github.io/wdd230/week02/bom.html
+                {
+                    "url" : "week01/holygrail.html",
+                    "title" : "Holy Grail Layout"
+                },
+                {
+                    "url" : "https://codepen.io/mszakutumela/pen/poYNGdL",
+                    "title" : "Applied JavaScript"
+                },
+                {
+                    "url" : "week01/media-query.html",
+                    "title" : "CSS Media Queries"
+                }
+            ]
+        },
+
+        {
+            "week" : "Week 4",
+            "links" : [
+                {
+                    "url" : "week01/holygrail.html",
+                    "title" : "Holy Grail Layout"
+                },
+                {
+                    "url" : "https://codepen.io/mszakutumela/pen/poYNGdL",
+                    "title" : "Applied JavaScript"
+                },
+                {
+                    "url" : "week01/media-query.html",
+                    "title" : "CSS Media Queries"
+                }
+            ]
+        },
+
+        {
+            "week" : "Week 5",
+            "links" : [
+                {
+                    "url" : "week01/holygrail.html",
+                    "title" : "Holy Grail Layout"
+                },
+                {
+                    "url" : "https://codepen.io/mszakutumela/pen/poYNGdL",
+                    "title" : "Applied JavaScript"
+                },
+                {
+                    "url" : "week01/media-query.html",
+                    "title" : "CSS Media Queries"
+                }
+            ]
+        }
+    ]
+}
