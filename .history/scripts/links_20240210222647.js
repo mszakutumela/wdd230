@@ -34,24 +34,40 @@ getLinks();
 
 // 7. Create the displayLinks() function and name the function's single parameter weeks. Remember from the 
 // json data that you wrote and tested that the data is an array of objects representing weeks of the term.
-const ul = document.querySelector(".left-card");
+cdisplayLinks(weeks) {
+    weeks.foreach((week)=>{
+        const list = document.querySelector(".left-card");
+        const activities = document.createElement("li");
+        const weekNumber = week.week;
+        //W01
+        const title1 = week.links[0].title;
+        const url1 = week.links[0].url;
+        //W02
+        const title2 = week.links[1].title;
+        const url2 = week.links[1].url;
+        //W03
+        const title3 = week.links[2].title;
+        const url3 = week.links[2].url;
+        //W04
+        const title4 = week.links[3].title;
+        const url4 = week.links[3].url;
 
-const displayLinks = (weeks) => {
-    weeks.forEach((weeks) => {
-        
-        const li = document.createElement("li");
-        li.innerHTML = `${weeks.week}: ${weeks.links.map(link => `<a href="${link.url}">${link.title}</a>`).join(" | ")}`;
-        
-        ul.appendChild(li);
+        if (title4 == "" && url4 == "") {
+            activities.innerHTML = `${weekNumber}: <a href="${url1}">${title1}</a> | <a href="${url2}">${title2}</a> | <a href="${url3}">${title3}</a>`;
+        }
+        else {
+            activities.innerHTML = `${weekNumber}: <a href="${url1}">${title1}</a> | <a href="${url2}">${title2}</a> | <a href="${url3}">${title3}</a> | <a href="${url4}">${title4}</a>`;
+        }
+            
+        list.appendChild(activities);
     });
 }
 
-// The code below didn't work:
+
 // function displayLinks(weeks) {
-//     // weeks.foreach((weeks) => { NB:typeerror: weeks.foreach is not a function
-//     weeks.forEach((week) => {
-//         const list = document.querySelector(".left-card");
-//         const activities = document.createElement("li");
+//     const list = document.querySelector(".left-card");
+//     const activities = document.createElement("li");
+//     weeks.foreach((week) => {
 //         const weekNumber = week.week;
 //         //W01
 //         const title1 = week.links[0].title;
@@ -72,7 +88,11 @@ const displayLinks = (weeks) => {
 //         else {
 //             activities.innerHTML = `${weekNumber}: <a href="${url1}">${title1}</a> | <a href="${url2}">${title2}</a> | <a href="${url3}">${title3}</a> | <a href="${url4}">${title4}</a>`;
 //         }
-            
+
 //         list.appendChild(activities);
 //     });
 // }
+
+
+
+

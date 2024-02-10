@@ -34,19 +34,6 @@ getLinks();
 
 // 7. Create the displayLinks() function and name the function's single parameter weeks. Remember from the 
 // json data that you wrote and tested that the data is an array of objects representing weeks of the term.
-const ul = document.querySelector(".left-card");
-
-const displayLinks = (weeks) => {
-    weeks.forEach((weeks) => {
-        
-        const li = document.createElement("li");
-        li.innerHTML = `${weeks.week}: ${weeks.links.map(link => `<a href="${link.url}">${link.title}</a>`).join(" | ")}`;
-        
-        ul.appendChild(li);
-    });
-}
-
-// The code below didn't work:
 // function displayLinks(weeks) {
 //     // weeks.foreach((weeks) => { NB:typeerror: weeks.foreach is not a function
 //     weeks.forEach((week) => {
@@ -76,3 +63,5 @@ const displayLinks = (weeks) => {
 //         list.appendChild(activities);
 //     });
 // }
+
+const list = document.querySelector(".left-card");

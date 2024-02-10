@@ -38,7 +38,6 @@ const ul = document.querySelector(".left-card");
 
 const displayLinks = (weeks) => {
     weeks.forEach((weeks) => {
-        
         const li = document.createElement("li");
         li.innerHTML = `${weeks.week}: ${weeks.links.map(link => `<a href="${link.url}">${link.title}</a>`).join(" | ")}`;
         
