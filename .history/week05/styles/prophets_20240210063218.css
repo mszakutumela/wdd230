@@ -1,0 +1,41 @@
+body {
+    background-color: #eeeaea; 
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    colo
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1rem;
+}
+
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #d7bef8; 
+    border: 1px solid #bbb; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+
+h2 {
+
+}
+
+img {
+
+}
+
+p {
+
+}
