@@ -33,8 +33,8 @@ apiFetch();
 // (weather.description), and image icon reference (weather[0].icon - 3 characters) in the data.
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
-    const iconSource = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let description = data.weather[0].description;
+    const iconSource = `https://openweathermap.org/img/w/${data.weather[04d].icon}.png`;
+    let desc = data.weather[0].description;
     weatherIcon.setAttribute("src", iconSource);
     weatherIcon.setAttribute("alt", description);
     captionDescription.textContent = `${description}`;

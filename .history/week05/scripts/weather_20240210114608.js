@@ -6,7 +6,7 @@ const captionDescription = document.querySelector("figcaption");
 
 // 2. Declare a const variable named "url" and assign it a valid URL string as 
 //given in the openweathermap api documentation.
-const url = "https://api.openweathermap.org/data/2.5/weather?Trier&lat=49.76&lon=6.64&untis=imperial&appid=63583805f5aa2daab27018765f6c55f8";
+const url = "https://api.openweathermap.org/data/2.5/weather?Trier&lat={49.76&lon=6.64&appid=63583805f5aa2daab27018765f6c55f8";
 
 //3. Define an asynchronous function named "apiFetch()" that uses a try block to handle errors.
 //4. Remember to invoke the apiFetch() function with a call somewhere in your script.
@@ -34,7 +34,7 @@ apiFetch();
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     const iconSource = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let description = data.weather[0].description;
+    let desc = data.weather[0].description;
     weatherIcon.setAttribute("src", iconSource);
     weatherIcon.setAttribute("alt", description);
     captionDescription.textContent = `${description}`;
