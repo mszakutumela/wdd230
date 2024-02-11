@@ -73,7 +73,7 @@ const currentTemp = document.querySelector("#current-temp");
 const weatherIcon = document.querySelector("#weather-icon");
 const captionDegsC = document.querySelector("#weatherDegsC");
 
-const url = "https://api.openweathermap.org/data/2.5/weather?Centurion&lat=-25.84&lon=28.05&untis=imperial&appid=63583805f5aa2daab27018765f6c55f8";
+const url = "https://api.openweathermap.org/data/2.5/weather?Centurion&lat=-25.8&lon=28.19&untis=imperial&appid=63583805f5aa2daab27018765f6c55f8";
 
 async function apiFetch() {
     try {
