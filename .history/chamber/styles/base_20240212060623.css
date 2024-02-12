@@ -11,7 +11,7 @@ body {
 /* Discover Page */
 
 h1 {
-    text-align: center;
+    text-align: ;
     color: rgb(2, 30, 155);
     font-size: 2rem;
 }
@@ -21,7 +21,7 @@ main {
     display: flex;
     flex-direction: column;
     margin:  0 auto;
-    width: 500px;
+    width: 400px;
 }
 
 img {
