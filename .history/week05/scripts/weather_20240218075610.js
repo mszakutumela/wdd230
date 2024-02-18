@@ -6,9 +6,7 @@ const captionDegsC = document.querySelector("figcaption");
 
 // 2. Declare a const variable named "url" and assign it a valid URL string as 
 //given in the openweathermap api documentation.
-// const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&untis=imperial&appid=b9cc737521b8a6ba0b4048c7deb546c5"; (spelled units wrong)
 const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=b9cc737521b8a6ba0b4048c7deb546c5";
-
 
 //3. Define an asynchronous function named "apiFetch()" that uses a try block to handle errors.
 //4. Remember to invoke the apiFetch() function with a call somewhere in your script.
@@ -36,7 +34,7 @@ apiFetch();
 function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     const iconSource = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
-    let degsC = data.weather[0].description;
+    let degs = data.weather[0].description;
     weatherIcon.setAttribute("src", iconSource);
     weatherIcon.setAttribute("alt", `weather icon of ${data.name}`);
     captionDegsC.textContent = `Today it is: ${degsC}`;

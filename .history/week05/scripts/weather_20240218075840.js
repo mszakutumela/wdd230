@@ -6,7 +6,7 @@ const captionDegsC = document.querySelector("figcaption");
 
 // 2. Declare a const variable named "url" and assign it a valid URL string as 
 //given in the openweathermap api documentation.
-// const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&untis=imperial&appid=b9cc737521b8a6ba0b4048c7deb546c5"; (spelled units wrong)
+// const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&untis=imperial&appid=b9cc737521b8a6ba0b4048c7deb546c5"; (spelle)
 const url = "https://api.openweathermap.org/data/2.5/weather?lat=49.75&lon=6.64&units=imperial&appid=b9cc737521b8a6ba0b4048c7deb546c5";
 
 
