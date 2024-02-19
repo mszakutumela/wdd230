@@ -1,0 +1,60 @@
+/* Home Page */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Search Bar */
+
+form.example input[type=text] {
+    paddin
+}
+
+/* Discover Page */
+
+h1 {
+    text-align: center;
+    color: rgb(2, 30, 155);
+    font-size: 2rem;
+}
+
+main {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    margin:  0 auto;
+    width: 500px;
+}
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 5px;
+    text-align: center;
+}
+
+footer .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

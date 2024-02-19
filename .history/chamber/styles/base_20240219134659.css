@@ -1,0 +1,102 @@
+/* Home Page */
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Social Media Links */
+
+.social {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 0.5rem;
+    width: 100px;
+}
+
+/* Search Bar */
+
+form.searchBar input[type=text] {
+    display: flex;
+    align-items: left;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.searchBar button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.searchBar button:hover {
+    background: #0b7dda;
+}
+
+form.searchBar::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+Logo an
+
+/* Discover Page */
+
+h1 {
+    text-align: center;
+    color: rgb(2, 30, 155);
+    font-size: 2rem;
+}
+
+main {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    margin:  0 auto;
+    width: 500px;
+}
+
+img {
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 5px;
+    text-align: center;
+}
+
+footer .footer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
