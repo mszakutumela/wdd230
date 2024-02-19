@@ -281,7 +281,6 @@ form fieldset label {
 
 form fieldset legend {
     margin: .5rem;
-    font-weight: 700;
 }
 
 form input[type="text"],
