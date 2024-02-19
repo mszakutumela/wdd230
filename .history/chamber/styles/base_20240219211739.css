@@ -310,7 +310,7 @@ form input[type="submit"] {
 
 section.levelsInfo {
     text-align: left;
-    margin: 0;
+    margin: 1rem;
     background-color: #E5E9EC ;
     padding: 10px;
 }
@@ -341,18 +341,6 @@ form label.top input:required:valid {
 
 
 /* Footer */
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    background-color: #7C616C;
-    color: white;
-    text-align: center;
-    padding: 25px 50px;
-    margin-top: auto;
-}
 
 footer p {
     font-size: 1rem;

@@ -240,7 +240,7 @@ img {
     --zebra: hsl(0, 0%, 93%, 1); */
 }
 
-div.join {
+#join {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -249,15 +249,14 @@ div.join {
     gap: 2rem;
 }
 
-div.join h1 {
+div#join h1 {
     text-align: center;
     margin-bottom: 0;
     border-bottom: solid 2px var(--formBorder);
 }
 
-section.form {
+section#form {
     display: flex;
-    flex-direction: row;
 }
 
 form {
@@ -266,7 +265,7 @@ form {
 
 form fieldset {
     margin: 2rem 0;
-    border: 2px solid var(--formBorder);
+    border: 1px solid var(--formBorder);
     border-radius: 10px;
     padding: .5rem 2rem;
 }
@@ -308,18 +307,16 @@ form input[type="submit"] {
     cursor: pointer;
 }
 
-section.levelsInfo {
-    text-align: left;
-    margin: 0;
-    background-color: #E5E9EC ;
-    padding: 10px;
+section#levelsInfo {
+    text-align: center;
+    margin: 1rem;
 }
 
-section.levelsInfo h3 {
+section#levelsInfo h3 {
     margin-bottom: 0;
 }
 
-section.levelsInfo p {
+section#levelsInfo p {
     margin: 0 0.5rem;
 }
 
@@ -341,18 +338,6 @@ form label.top input:required:valid {
 
 
 /* Footer */
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    background-color: #7C616C;
-    color: white;
-    text-align: center;
-    padding: 25px 50px;
-    margin-top: auto;
-}
 
 footer p {
     font-size: 1rem;

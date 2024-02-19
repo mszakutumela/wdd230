@@ -2,7 +2,7 @@
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: ;
     min-height: 100vh;
     /* background-color: rgb(242, 250, 197); */
     background-color: white;
@@ -341,18 +341,6 @@ form label.top input:required:valid {
 
 
 /* Footer */
-
-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    background-color: #7C616C;
-    color: white;
-    text-align: center;
-    padding: 25px 50px;
-    margin-top: auto;
-}
 
 footer p {
     font-size: 1rem;
