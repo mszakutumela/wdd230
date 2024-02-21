@@ -1,0 +1,71 @@
+@media screen and (min-width: 700px) {
+    nav {
+        background-color: #7C616C;
+        width: 96.5%;
+        height: 80px;
+        padding: 50px 50px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 20rem;
+    }
+
+    li.current-menu-item a {
+        background-color: none;
+    }
+
+    nav #line {
+        display: block;
+    }
+    
+    #menuButton {
+        display: none;
+    }
+
+    ul.menuLinks,
+    ul.menuLinks.open {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .menuLinks {
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .menuLinks li {
+        display: block;
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .hero span {
+        font-size: 2rem;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* .wddTitle {
+        font-size: 1.75em;
+    } */
+
+    .card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card-grid section:nth-child(1) {
+        grid-column: span 2;
+    }
+
+    footer .footer-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
