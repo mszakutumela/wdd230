@@ -1,0 +1,13 @@
+{
+    "members": [
+        {
+            "imgLogoU" : ""businessLogo":",
+            "businessName" : "", 
+            "businessAddress" : "",
+            "businessTel" : "",
+            "businessURL" : "",
+            "membershipLevel" : ""
+        }
+
+    ]
+}

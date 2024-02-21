@@ -51,7 +51,7 @@
         {
             "imgLogoUrl": "https://inspirationaldesign.co.za/wp-content/uploads/2021/07/I-D-Logo1-150x150.png",
             "businessName": "Inspirational Design Studio", 
-            "businessAddress": "12 Silvertop Avenue, Amandasig, Akasia, 0182",
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
             "businessTel": "+27 (0)73 427 1431",
             "businessURL": "https://inspirationaldesign.co.za/",
             "membershipLevel": "Silver"
@@ -59,18 +59,18 @@
         {
             "imgLogoUrl": "https://www.nicro.org.za/images/Nicro-web-logo.png",
             "businessName": "nicro", 
-            "businessAddress": "Room 544, 5th Floor Van Erkom Building, No 217 Pretorius Street, Pretoria Central, 0001",
-            "businessTel": "+27 (0)12 326 8115/6",
-            "businessURL": "https://www.nicro.org.za/index.php/en/",
-            "membershipLevel": "Non-Profit"
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
+            "businessTel": "+27 (0)73 427 1431",
+            "businessURL": "https://inspirationaldesign.co.za/",
+            "membershipLevel": "Silver"
         },
         {
-            "imgLogoUrl": "https://riseagainsthunger.org.za/wp-content/uploads/2022/08/Rise-Against-Hunger-Logo-for-website-08.png",
-            "businessName": "Rise Against Hunger Africa", 
-            "businessAddress": "Johannesburg Head Office, Johannesburg Omni Park, Sailor Malan Avenue, Aeroton, 2013",
-            "businessTel": "+27 (0)11 872 2498",
-            "businessURL": "https://riseagainsthunger.org.za/",
-            "membershipLevel": "Non-Profit"
+            "imgLogoUrl": "https://inspirationaldesign.co.za/wp-content/uploads/2021/07/I-D-Logo1-150x150.png",
+            "businessName": "Inspirational Design Studion", 
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
+            "businessTel": "+27 (0)73 427 1431",
+            "businessURL": "https://inspirationaldesign.co.za/",
+            "membershipLevel": "Silver"
         }
     ]
 }

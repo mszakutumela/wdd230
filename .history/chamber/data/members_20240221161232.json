@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "imgLogoUrl": "https://www.casatoscana.co.za/images/flogo-med.png",
+            "businessName": "Casa Toscana", 
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
+            "businessTel": "+27 (0)82 971 3004",
+            "businessURL": "https://www.casatoscana.co.za/index.php",
+            "membershipLevel": "Silver"
+        },
+        {
+            "imgLogoUrl": "https://showmeonline.co.za/cdn/frc.php?f=https://showme.co.za/pretoria/files/2013/02/fvc-stationers-header23.jpg&w=892&h=300",
+            "businessName": "FVC Stationers", 
+            "businessAddress": "Plot 444 Visarend Street, Kameeldrift East Pretoria (Tshwane)",
+            "businessTel": "+27(0)82 957 8609",
+            "businessURL": "https://www.fvcstationers.co.za/#position",
+            "membershipLevel": "Bronze"
+        },
+        {
+            "imgLogoUrl": "https://www.casatoscana.co.za/images/flogo-med.png",
+            "businessName": "OYAMA", 
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
+            "businessTel": "+27 (0)82 971 3004",
+            "businessURL": "https://oyamaservices.co.za/",
+            "membershipLevel": "Silver"
+        },
+        {
+            "imgLogoUrl": "https://www.casatoscana.co.za/images/flogo-med.png",
+            "businessName": "Casa Toscana", 
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
+            "businessTel": "+27 (0)82 971 3004",
+            "businessURL": "https://www.casatoscana.co.za/index.php",
+            "membershipLevel" : "Silver"
+        },
+        {
+            "imgLogoUrl": "https://www.casatoscana.co.za/images/flogo-med.png",
+            "businessName": "Casa Toscana", 
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
+            "businessTel": "+27 (0)82 971 3004",
+            "businessURL": "https://www.casatoscana.co.za/index.php",
+            "membershipLevel": "Silver"
+        },
+        {
+            "imgLogoUrl": "https://www.casatoscana.co.za/images/flogo-med.png",
+            "businessName": "Casa Toscana", 
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
+            "businessTel": "+27 (0)82 971 3004",
+            "businessURL": "https://www.casatoscana.co.za/index.php",
+            "membershipLevel": "Silver"
+        },
+        {
+            "imgLogoUrl": "https://www.casatoscana.co.za/images/flogo-med.png",
+            "businessName": "Casa Toscana", 
+            "businessAddress": "5 Darlington Road, Lynnwood Manor, Pretoria, Gauteng",
+            "businessTel": "+27 (0)82 971 3004",
+            "businessURL": "https://www.casatoscana.co.za/index.php",
+            "membershipLevel": "Silver"
+        }
+    ]
+}

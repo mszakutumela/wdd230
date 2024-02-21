@@ -67,9 +67,13 @@
         {
             "imgLogoUrl": "https://riseagainsthunger.org.za/wp-content/uploads/2022/08/Rise-Against-Hunger-Logo-for-website-08.png",
             "businessName": "Rise Against Hunger Africa", 
-            "businessAddress": "Johannesburg Head Office, Johannesburg Omni Park, Sailor Malan Avenue, Aeroton, 2013",
+            "businessAddress": "Johannesburg Head Office
+            Johannesburg Omni Park,
+            Sailor Malan Avenue,
+            Aeroton,
+            2013",
             "businessTel": "+27 (0)11 872 2498",
-            "businessURL": "https://riseagainsthunger.org.za/",
+            "businessURL": "https://inspirationaldesign.co.za/",
             "membershipLevel": "Non-Profit"
         }
     ]
