@@ -24,7 +24,7 @@ function displayProphets(prophets) {
         birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
 
         // portrait.setAttribute("src, prophet.imageurl"); simple but yet very big snytax error. this error caused the output not to display
-        portrait.setAttribute("src", prophet.imageurl);
+        portrait.setAttribute("src", prophet.imageurl");
         portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
         portrait.setAttribute("loading", "lazy");
         portrait.setAttribute("width", "340");

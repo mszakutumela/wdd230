@@ -1,7 +1,7 @@
 @media screen and (min-width: 700px) {
     nav {
         background-color: #7C616C;
-        width: 100%;
+        width: 96.5%;
         height: 80px;
         padding: 50px 50px;
         margin: auto;
@@ -86,12 +86,8 @@
     }
 
     #logoFooter {
-        max-width: 125px;
+        max-width: 150px;
         justify-self: center;
         align-self: center;
-    }
-
-    footer {
-        width: 103.8%;
     }
 }
