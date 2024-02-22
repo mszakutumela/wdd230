@@ -10,7 +10,7 @@ body {
     font-size: 22px;
     line-height: 1.15em;
     margin: 0;
-    padding: 0;
+    padding: 5px;
 }
 
 h1,
@@ -129,7 +129,9 @@ nav {
     color: white;
 }
 
-nav #line1, #line2, #line3 {
+nav #line1,
+#line2,
+#line3 {
     display: none;
 }
 
@@ -243,8 +245,6 @@ h1 {
     display: block;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    width: 500px;
 } */
 
 img {
@@ -266,10 +266,10 @@ img {
 /* Join Page */
 
 :root {
-    --formBorder: #7C616C;
+    --formBorder: #D1B1CB;
     --formText: black;
-    --formButton: #9c2c13;
-    --formBtnText: white;
+    --formButton: #D1B1CB;
+    --levelsBackground: #E5E9EC;
     /* --border: hsla(0, 0%, 20%, .8);
     --borderlight: hsla(0, 0%, 33%, .3);
     --shadow: hsl(0, 0%, 50%);
@@ -277,52 +277,66 @@ img {
 }
 
 div.join {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    grid-auto-rows: auto;
-    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3,1fr); */
+    gap: 30px;
+    padding-bottom: 50px;
 }
 
 div.join h1 {
     text-align: center;
-    margin-bottom: 0;
-    border-bottom: solid 2px var(--formBorder);
+    justify-content: center;
+    /* margin-left: 55px; */
+    color: var(--formText);
+    position: relative;
+    /* display: inline-block; */
 }
 
-section.form {
+main .join p {
+    margin-top: 0;
+    font-size: 17px;
+}
+
+/* section.form {
     display: flex;
-    flex-direction: row;
-}
-
-form {
-    margin: 1rem auto;
-}
+} */
 
 form fieldset {
     margin: 2rem 0;
     border: 2px solid var(--formBorder);
     border-radius: 10px;
-    padding: .5rem 2rem;
+    padding: 20px;
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
 }
 
-form label {
+/* form label {
     display: block;
     margin-bottom: 1rem;
-}
+} */
 
 form textarea {
     width: 20rem;
     height: 5rem;
 }
 
+/* form fieldset {
+    margin-bottom: 1rem;
+} */
+
 form fieldset label {
     margin: 0.5rem 0;
 }
 
 form fieldset legend {
-    margin: .5rem;
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -337,26 +351,54 @@ form input[type="tel"] {
 
 form input[type="submit"] {
     width: 15rem;
-    border: solid #D1B1CB 1px;
+    border: solid var(--formButton) 1px;
     padding: 1rem;
-    background-color: #D1B1CB;
+    background-color: var(--formButton);
     border-radius: 10px;
     cursor: pointer;
+    color: var(--formText);
+    font-weight: 500;
+    margin-left: 100px;
 }
 
 section.levelsInfo {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
     margin: 0;
-    background-color: #E5E9EC;
+    background-color: var(--levelsBackground);
     padding: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    height: 570px;
+    margin-top: 65px;
 }
 
 section.levelsInfo h3 {
     margin-bottom: 0;
+    font-size: 20px;
+}
+
+section.levelsInfo h2 {
+    font-size: 30px;
 }
 
 section.levelsInfo p {
     margin: 0 0.5rem;
+    text-align: left;
+}
+
+form label.top {
+    font-size: 16px;
+}
+
+form div.mlHeading {
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+form label.bottom {
+    font-size: 16px;
 }
 
 form label.top input:required {
@@ -367,12 +409,33 @@ form label.top input:required:valid {
     border-left: green solid 6px;
 }
 
+form label.sbs {
+    display: block;
+    padding: 0.48rem;
+    font-size: 16px;
+}
+
+form label.sbs input {
+    margin: 5px;
+}
+
+main .thanksTitle {
+    text-align: center;
+    color: var(--formText);
+    position: relative;
+    display: inline-block;
+}
+
+main #thanksMsg {
+    text-align: center;
+}
+
 /*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
+/* .clearfix:after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 /* Directory Page */
 
@@ -389,7 +452,7 @@ div.bMenu button {
     margin: 0 0.5rem;
     padding: 0.5rem 1rem;
     border-radius: 5px;
-    border: solid 1px #DDCAD9 ;
+    border: solid 1px #DDCAD9;
 }
 
 div#members a {
@@ -437,12 +500,12 @@ div.grid p {
 }
 
 div.list {
-   /* display: flex;
+    /* display: flex;
    flex-direction: column;
    width: auto;
    height: auto; */
-   max-width: 1000px;
-   margin: 1rem auto;
+    max-width: 1000px;
+    margin: 1rem auto;
 }
 
 div.list section {
@@ -454,13 +517,13 @@ div.list section {
     border: solid 2px #DDCAD9;
     border-radius: 5px;
     overflow: hidden;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
 
-div.list section > * {
+/* div.list section > * {
     margin: 0.1rem;
-}
+} */
 
 div.list img {
     display: none;
@@ -485,8 +548,6 @@ div.list section p {
 div.list section:nth-child(even) {
     background-color: rgb(241, 248, 246);
 }
-
-
 
 
 /* Footer */

@@ -1,6 +1,6 @@
 @media screen and (min-width: 700px) {
     nav {
-        width: 96.4%;
+        width: 97%;
         gap: 20rem;
     }
 
@@ -8,7 +8,9 @@
         background-color: none;
     } */
 
-    nav #line1, #line2, #line3 {
+    nav #line1,
+    #line2,
+    #line3 {
         display: block;
     }
 
@@ -18,7 +20,7 @@
         padding: .75rem 2vw;
         text-decoration: none;
     }
-    
+
     .menuLinks li #mLinks1:hover {
         /* background-color: #E5E9EC; */
         /* color: #462230; */
@@ -45,7 +47,7 @@
         font-weight: 900;
         display: flex;
     }
-    
+
     .menuLinks li #mLinks4:hover {
         /* background-color: #E5E9EC; */
         /* color: #462230; */
@@ -101,11 +103,22 @@
 
     div.list section {
         display: grid;
-        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;;
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
     }
 
+    /* header, nav, main, footer {
+        max-width: 64em;
+        margin:auto;
+    } */
 
+    main .joinTitle {
+        display: flex;
+        justify-content: center;
+    }
 
+    section.levelsInfo {
+        height: 470px;
+    }
 
     footer .footer-info {
         display: flex;
