@@ -124,6 +124,7 @@ nav {
     padding: 50px 50px;
     margin: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     color: white;
@@ -179,14 +180,9 @@ ul.menuLinks li a {
 
 .menuLinks li #mLinks:hover {
     text-decoration: underline;
-    color: black;
+    color: #E5E9EC;
     font-weight: 900;
     display: flex;
-}
-
-li.current-menu-item a {
-    /* background-color: rgba(238, 70, 201, 0.911); */
-    background-color: none;
 }
 
 ul.menuLinks {
@@ -358,6 +354,58 @@ form label.top input:required:valid {
     display: table;
     clear: both;
 }
+
+/* Directory Page */
+
+h1.headingD {
+    text-align: center;
+}
+
+div.bMenu {
+    text-align: center;
+}
+
+div.bMenu button {
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: solid 1px #DDCAD9 ;
+}
+
+div#members a {
+    color: black;
+}
+
+div#members img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.grid {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0.5rem;
+    margin: 1rem auto;
+}
+
+div.grid section {
+    text-align: center;
+    margin: 0.5rem;
+    border: solid 1px #DDCAD9;
+    border-radius: 5px;
+}
+
+div.grid img {
+    max-width: 100%;
+    margin: 0.5rem;
+}
+
+div.grid h3,
+div.grid p {
+    margin: 0.2rem 0;
+}
+
 
 
 

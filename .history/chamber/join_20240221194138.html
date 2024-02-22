@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tshwane Chamber of Commerce | Join Page</title>
+    <meta name="description" content="Join Page">
+    <meta name="author" content="Ayanda Ndlovu">
+    <meta property="og:title" content="Ayanda Ndlovu - Tshwane Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/6/6b/Uniegebou.jpg">
+    <meta property="og:url" content="https://mszakutumela.github.io/wdd230/chamber">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,300;0,8..144,400;0,8..144,500;0,8..144,700;1,8..144,300;1,8..144,400;1,8..144,500;1,8..144,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="chamber/styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="chamber/styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico">
+</head>    
+
+<body>
+    <header>
+        <div class="socialHeader">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/FB_icon.webp" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter_icon.webp" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/Instagram_icon.webp" alt="instagram icon">
+            </a>
+        </div>
+        <div class="container-a">
+            <form class="searchBar" action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+        <div id="darkButton">
+            🕶️
+        </div>
+    </header>
+
+    <nav>
+        <div id="titleHeader">
+            <img id="logoHeader" src="images/Logo(1).webp" alt="Logo of Tshwane Chamber of Commerce Website">
+        </div>
+        <button id="menuButton"></button>
+        <ul class="menuLinks">
+            <li><a id="mLinks" class="active" href="index.html" title="Home">Home</a></li>
+            <li><a id="line" title="verticalLine">|</a></li>
+            <li><a id="mLinks" href="discover.html" title="Discover">Discover</a></li>
+            <li><a id="line" title="verticalLine">|</a></li>
+            <li><a id="mLinks" href="directory.html" title="Directory">Directory</a></li>
+            <li><a id="line" title="verticalLine">|</a></li>
+            <li><a id="mLinks" href="join.html" title="Join">Join</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="join">
+            <h1 class="joinTitle">Membership Application</h1> 
+
+            <section class="form">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Member Information</legend>
+                        <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
+                        <label class="top">Job Title* <input type="text" name="jobTitle" id="jobTitle" placeholder="your current position" pattern="^[A-Za-z -]{7,}$" title="Password must be at least 7 characters long"></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top">Mobile Phone Number* <input type="tel" name="phone" placeholder="071-355-5123"></label>
+                    </fieldset>
+                    <fieldset>    
+                        <legend>Membership Level</legend>
+                        <div>Choose Your Membership Level</div>
+                        <label class="sbs"><input type="radio" name="audience" value="Free Membership">Non-Profit Membership (it's free)</label>
+                        <label class="sbs"><input type="radio" name="audience" value="Bronze">Bronze Membership</label>
+                        <label class="sbs"><input type="radio" name="audience" value="Silver">Silver Membership</label>
+                        <label class="sbs"><input type="radio" name="audience" value="Gold">Gold Membership</label>
+                    </fieldset>
+                    <fieldset>    
+                        <legend>Business Information</legend>
+                        <label class="top">Business Name* <input type="text" name="business" required></label>
+                        <label class="bottom">Business Description <textarea name="businessDescription" id="businessDescription"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Current Date and Time</legend>
+                        <label class="bottom">Timestamp<input type="hidden" name="timeStamp" id="timeStamp"></label>
+                    </fieldset>    
+                    <input type="submit" value="Join Chamber" class="submitButton">    
+                </form>
+            </section>
+
+            <section class="levelsInfo">
+                <h2>Member Levels and Benefits</h2>
+
+                <h3>Non-Profit Membership (it's free)</h3>
+                <p>- Receive all benefits the Chamber has to offer, free of charge.</p>
+
+                <h3>Bronze Membership (it's $100)</h3>
+                <p>- Get access to events and training hosted by the Chamber.</p>
+
+                <h3>Silver Membership (it's $200)</h3>
+                <p>
+                    - Receive the same benefit as a Bronze Member. <br>
+                    - Receive 50% discount at Planet Fitness Gym. <br>
+                    - Get three days advert space on our homepage for your business.
+                </p>
+
+                <h3>Gold Membership (it's $400)</h3>
+                <p>
+                    - Receive the same benefit as a Bronze and Silver Member. <br>
+                    - Get free approval to host events. <br>
+                    - Get free access to VIP lounges at all events.
+                </p>
+            </section>
+
+        </div>    
+    </main>
+
+
+    <footer>
+        <div class="socialFooter">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/FB_icon.webp" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter_icon.webp" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/Instagram_icon.webp" alt="instagram icon">
+            </a>
+        </div>
+        <div class="footer-info">
+            <p>
+                &copy; <span id="year"></span> | Tshwane Chamber of Commerce | WDD230 Project | Ayanda Ndlovu | Centurion
+                - South Africa
+            </p>
+            <p>Last modified: <span id="lastModified"></span></p>
+        </div>
+        <div id="titleFooter">
+            <a href="index.html">
+                <img id="logoFooter" src="images/Logo(1).webp" alt="Logo of Tshwane Chamber of Commerce Website">
+            </a>
+        </div>
+    </footer>
+    <script src="scripts/homeHnF.js"></script>
+</body>
+
+</html>
