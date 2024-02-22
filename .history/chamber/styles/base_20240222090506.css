@@ -111,7 +111,7 @@ form.searchBar button:hover {
 /* Logo and navigation bar */
 
 img#logoHeader {
-    max-width: 200px;
+    max-width: 100px;
     justify-self: center;
     align-self: center;
 }
