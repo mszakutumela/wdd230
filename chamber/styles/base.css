@@ -225,7 +225,7 @@ ul.menuLinks.open {
 
 .menuLinks .active {
     /* color: #3C1518; */
-    color: #f785e2;
+    color: yellow;
     font-weight: 900;
 }
 
@@ -235,10 +235,59 @@ nav a.menu-item {
 
 /* Discover Page */
 
-h1 {
+div.discover {
+    background-color: #DDCAD9;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+
+div.discover h1 {
     text-align: center;
-    color: rgb(2, 30, 155);
+    color: black;
     font-size: 2rem;
+}
+
+div.discover hr {
+    height: 2px;
+    background-color: #7C616C;
+    margin: 10px;
+}
+
+section.demographics {
+    text-align: center;
+    margin: 1rem;
+}
+
+section.demographics h2 {
+    font-size: 1.1rem;
+}
+
+section.demographics p {
+    font-size: 1rem;
+}
+
+section.discoverIMG h3 {
+    font-size: 1.5rem;
+}
+
+section.discoverIMG p {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+section.demographics strong {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+section.discoverIMG img {
+    width: 100%;
+    height: auto;
+    align-self: center;
+    border-radius: 5px;
+    border: solid 1px #7C616C;
 }
 
 /* main {
@@ -293,6 +342,7 @@ div.join h1 {
     /* margin-left: 55px; */
     color: var(--formText);
     position: relative;
+    font-size: 2rem;
     /* display: inline-block; */
 }
 
@@ -442,6 +492,7 @@ main #thanksMsg {
 h1.headingD {
     text-align: center;
     color: black;
+    font-size: 2rem;
 }
 
 div.bMenu {

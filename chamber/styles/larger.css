@@ -120,6 +120,43 @@
         height: 470px;
     }
 
+    /* Discover Page */
+
+    div.discover {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        background-color: transparent;
+    }
+
+    div.discover h1 {
+        grid-column: 1 / -1;
+        grid-row: 1 / 2;
+        font-size: 2rem;
+    }
+
+    div.discover hr {
+        display: none;
+    }
+
+    section.demographics {
+        background-color: #DDCAD9 ;
+        align-self: flex-start;
+        position: sticky;
+        top: 20%;
+    }
+
+    section.discoverIMG {
+        transition: transform 0.5s;
+    }
+
+    section.discoverIMG img:hover {
+        border: none;
+        transform: scale(1.02);
+        box-shadow: 3px 3px 10px #7C616C;
+    }
+
     footer .footer-info {
         display: flex;
         flex-direction: row;
