@@ -117,7 +117,7 @@
         display: grid;
         grid-auto-columns: 1fr 1fr 1fr;
         gap: 1rem;
-        margin-top: -50px;
+        margin-top: ;
     }
 
     section.events {

@@ -87,7 +87,7 @@
         margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
-        margin-bottom: 0;
+        margin-bottom: 5px;
     }
 
     div.part1 h2 {
@@ -117,7 +117,6 @@
         display: grid;
         grid-auto-columns: 1fr 1fr 1fr;
         gap: 1rem;
-        margin-top: -50px;
     }
 
     section.events {

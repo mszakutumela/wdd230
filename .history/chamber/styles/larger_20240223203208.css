@@ -84,10 +84,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 1rem;
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 0;
+        padding: px;
     }
 
     div.part1 h2 {
@@ -117,7 +114,6 @@
         display: grid;
         grid-auto-columns: 1fr 1fr 1fr;
         gap: 1rem;
-        margin-top: -50px;
     }
 
     section.events {
