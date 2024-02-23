@@ -85,9 +85,10 @@
     }
 
     main div.cards {
-        display: grid;
+        /* display: grid;
         grid-auto-columns: 1fr 1fr 1fr;
-        gap: 0.5rem;
+        gap: 0.5rem; */
+        
     }
 
     section.events {
@@ -96,13 +97,13 @@
     }
 
     section.news {
-        grid-column: 1 / 4;
+        grid-column: 1 / 3;
         grid-row: 2 / 3;
     }
 
     section.weather {
         grid-column: 3 / 4;
-        grid-row: 1 / 2;
+        grid-row: 1 / 3;
     }
 
     /* .hero span {
