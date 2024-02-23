@@ -473,7 +473,7 @@ main .thanksTitle {
     text-align: center;
     color: var(--formText);
     position: relative;
-    font-size: 2rem;
+    
 }
 
 main #thanksMsg {

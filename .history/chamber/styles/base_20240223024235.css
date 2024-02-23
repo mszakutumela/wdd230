@@ -473,6 +473,7 @@ main .thanksTitle {
     text-align: center;
     color: var(--formText);
     position: relative;
+    display: inline-block;
     font-size: 2rem;
 }
 
