@@ -163,8 +163,9 @@
 
     div.banner {
         position: absolute;
-        top: 60%;
+        top: 80%;
         left: 40%;
+        padding;
     }
 
     /* .hero span {
