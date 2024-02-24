@@ -106,7 +106,7 @@
     div.hero {
         grid-column: 2 / 4;
         grid-row: 1 / 4;
-        padding: 10px;
+        
     }
 
     div.hero a {
